@@ -2,7 +2,7 @@
 @import url("aboutStyles.css");
 .container {
 	background-color: #FFFFFF;
-	width: 90%;
+	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
 	border-bottom-width: 0px;
@@ -10,6 +10,7 @@
 	padding-top: 0px;
 	padding-right: 0px;
 	padding-bottom: 0px;
+	height: 100%;
 }
 .row {
 	width: 100%;
@@ -111,8 +112,8 @@
 	width: 60%;
 	float: left;
 	font-family: "Source Sans Pro";
-	color: #343434;
-	padding-bottom: 15px;
+	color: #000000;
+	padding-bottom: 0px;
 }
 .noDisplay {
 	display: none;
@@ -132,12 +133,14 @@
 	line-height: 24px;
 	margin-top: 30px;
 	margin-bottom: 15px;
-	color: #B3B3B3;
+	color: #000000;
 }
 .right_article {
 	width: 40%;
 	float: left;
-	background-color: #F6F6F6;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 0px;
 }
 .container .right_article ul {
 	margin-top: 0px;
@@ -185,11 +188,13 @@
 .placeholder {
 	/* [disabled]max-width: 400px; */
 	/* [disabled]max-height: 300px; */
-	width: 100%;
 	padding-top: 30px;
-	/* [disabled]padding-left: 30px; */
+	padding-left: 30px;
+	margin: auto;
 	padding-bottom: 30px;
-	height: 100%;
+	display: block;
+	width: 90%;
+	height: 80%;
 }
 .left_half {
 	background-color: #FF0000;
@@ -219,6 +224,7 @@
 	letter-spacing: 2px;
 	border-top-width: 2px;
 	font-family: "Source Sans Pro";
+	text-decoration: none;
 }
 body {
 	margin-top: 0px;
@@ -459,5 +465,5 @@ body {
 .container .social .social_icon:hover {
 
 }
-#menu {
+.main {
 }

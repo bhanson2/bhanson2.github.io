@@ -1,0 +1,132 @@
+/* Table Styles */ 
+
+table {
+   clear: left;
+   float: left;
+   font-size: 16px;
+   margin-bottom: 20px;
+   margin-left: 20px;
+   border: 2px solid black;
+   border-collapse: collapse;
+}
+
+table td {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 50px;
+  padding-right: 10px;
+}
+
+table caption {
+   font-size: 18px;
+   caption-side: top;
+   text-align: center;
+   margin-bottom: 10px;
+}
+
+/* table header styles */
+
+table thead {
+   background-color: rgba(255, 255, 255, 0.6);
+   border-bottom: 2px solid black;
+}
+
+table thead tr {
+   height: 40px;
+}
+
+/* Table Footer Styles */
+
+table tfoot {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-top: 2px solid black;
+  text-align: center;
+}
+
+table tfoot tr {
+   height: 40px;
+}
+
+/* Table Body Styles */
+
+table tbody tr {
+   height: 50px;
+   border-bottom: 1px solid black;  
+}
+
+table tbody tr:nth-of-type(even) {
+   background-color: rgba(255, 255, 255, 0.6);
+}
+
+table tbody tr:nth-of-type(odd) {
+   background-color: rgba(255, 211, 211, 0.6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
